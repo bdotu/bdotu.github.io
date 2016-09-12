@@ -36,7 +36,16 @@
       min-width: 100%;
       min-height: 100%;
     }
+    form.hidden {
+      visibility: hidden;
+    }
   </style>
+
+  <script type="text/javascript">
+    function display() {
+      document.getElementById("sendEmail").style.visibility = "visible";
+    }
+  </script>
 
 </head>
 <body>
@@ -56,10 +65,29 @@
           <a href="http://www.twitter.com/bdotu"><img src="images/twitter.png"/></a>
           <a href="http://www.linkedin.com/in/brightdotu1"><img src="images/linkedin.png"/></a>
           <a href="http://www.github.com/bdotu"><img src="images/github.png"/></a>
-          <img src="images/email.png"/>
+          <a href="#" onclick="display()"><img src="images/email.png"/></a>
         </p>
       </div>
     </div>
+    <form class="hidden" id="sendEmail" action="mailto:kofi.dotu@gmail.com" method="post" enctype="text/plain">
+      <div class="row">
+        <div class="six columns">
+          <label for="emailInput">Your email</label>
+          <input class="u-full-width" type="email" placeholder="example@mail.com" id="emailInput">
+        </div>
+        <div class="six columns">
+          <label for="reasonInput">Reason for contacting</label>
+          <select class="u-full-width" id="reasonInput">
+            <option value="option 1">Question(s)</option>
+            <option value="option 2">Comment(s)</option>
+            <option value="option 3">Can I get your number?</option>
+          </select>
+        </div>
+      </div>
+      <label for="message">Message</label>
+      <textarea class="u-full-width" placeholder="Hey Bright ..." id="message"></textarea>
+      <input class="button-primary" type="submit" value="Submit">
+    </form>
   </div>
 
 <!-- End Document
