@@ -22,6 +22,20 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
 
+  <style>
+    .round{
+      border-radius: 50%;
+      overflow: hidden;
+      width: 150px;
+      height: 150px;
+    }
+    .round img{
+      display: block;
+      min-width: 100%;
+      min-height: 100%;
+    }
+  </style>
+
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
@@ -34,11 +48,13 @@
   <div class="container">
     <div class="row">
       <div class="one-half column" style="margin-top: 25%">
-        <img src="images/bright.jpg" alt="Some Picture">
+        <div class="round">
+          <img src="images/bright.jpg" alt="Some Picture">
+        </div>
       </div>
     </div>
     <div class="row">
-      <div class="one-half column" style="margin-top: 25%">
+      <div class="one-half column" style="margin-top: 5%">
         <h4 align="center">Hello world, I am Bright!</h4>
         <!-- <p></p> -->
       </div>
