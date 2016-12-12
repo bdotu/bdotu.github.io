@@ -9,7 +9,6 @@
   <meta name="description" content="Personal website.">
   <meta name="author" content="Bright Dotu">
   <meta name="google-site-verification" content="cWZAgTrLrw3GpDFZ5unOu7VII6bJMhcLXOfoWgNsrBg" />
-  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -29,34 +28,25 @@
   <link rel="icon" type="image/png" href="images/favicon.png">
 
   <style>
-    .round {
-      border-radius: 50%;
-      overflow: hidden;
-    }
-    .round img {
-      display: block;
-      min-width: 100%;
-      min-height: 100%;
-    }
-    form.hidden {
-      visibility: hidden;
-    }
+  .round {
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  .round img {
+    display: block;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  form.hidden {
+    visibility: hidden;
+  }
   </style>
 
   <script type="text/javascript">
-    function display() {
-      document.getElementById("sendEmail").style.visibility = "visible";
-    }
+  function display() {
+    document.getElementById("sendEmail").style.visibility = "visible";
+  }
   </script>
-
-  <!-- <script type="text/javascript">
-    $(document).ready(function(){
-        $('#submit').click(function({
-            $('#sendEmail').attr('action', 'mailto:kofi.dotu@gmail.com?subject=Website%20Mail' + $('#nameInput').val() + $('#emailInput').val() + '&body=' + $('#message').val());
-            $('#sendEmail').submit();
-        }));
-    });
-  </script> -->
 
 </head>
 <body>
@@ -77,11 +67,11 @@
           <a href="http://www.linkedin.com/in/brightdotu1" target="_blank"><img src="images/linkedin.png"/></a>
           <a href="http://www.github.com/bdotu" target="_blank"><img src="images/github.png"/></a>
           <a href="http://www.facebook.com/bdotu" target="_blank"><img src="images/facebook.png"/></a>
-          <a href="#" onclick="display()"><img src="images/email.png"/></a>
+          <!-- <a href="#" onclick="display()"><img src="images/email.png"/></a> -->
         </p>
       </div>
     </div>
-    <form class="hidden" id="sendEmail">
+    <!-- <form class="hidden" id="sendEmail">
       <div class="row">
         <div class="six columns">
           <label for="nameInput">Name</label>
@@ -91,23 +81,14 @@
           <label for="emailInput">Email</label>
           <input class="u-full-width" type="email" placeholder="Your email" id="emailInput">
         </div>
-        <!-- <div class="six columns">
-          <label for="reasonInput">Reason for contacting</label>
-          <select class="u-full-width" id="reasonInput">
-            <option value="option 1">Question(s)</option>
-            <option value="option 2">Comment(s)</option>
-            <option value="option 3">Can I get your number?</option>
-          </select>
-        </div> -->
       </div>
       <label for="message">Message</label>
       <textarea class="u-full-width" placeholder="Hey Bright ..." id="message"></textarea>
-      <a href="mailto:kofi.dotu@gmail.com?Subject=Website%20Mail" target="_top"><input class="button-primary" type="submit" value="Submit"></a>
-      <!-- <input class="button-primary" id="submit" value="Submit"></input> -->
-    </form>
+      <a href="mailto:example@email.com?Subject=Website%20Mail" target="_top"><input class="button-primary" type="submit" value="Submit"></a>
+    </form> -->
   </div>
 
-<!-- End Document
+  <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
 </html>
