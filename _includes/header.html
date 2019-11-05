@@ -1,0 +1,26 @@
+<!-- Header -->
+<!-- Metas -->
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1"  />
+
+<title>{{ page.title }}</title>
+
+
+<meta name="description" content="{{ site.description }}" />
+<meta name="author" content="{{ site.author }}"  />
+
+<!-- Google Analytics -->
+{% if site.tracking_id %}
+  {% include google-analytics.html%}
+{% endif %}
+
+<!-- Font -->
+<link href="//fonts.googleapis.com/css?family=Open+Sans:300,400|Raleway:100,200,300,400,600|Raleway+Dots" rel="stylesheet" type="text/css" />
+
+<!-- CSS -->
+<link rel="stylesheet" href="{{ site.url }}/assets/css/main.css" type="text/css">
+
+
+<!-- Favicon -->
+<link rel="icon" type="image/png" href="{{ site.url }}/assets/images/favicon/favicon.ico">

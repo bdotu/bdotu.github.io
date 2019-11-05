@@ -1,0 +1,34 @@
+# User Settings
+
+# Site Info
+title: "personal website"
+description: "Hello World, I am Bright!"
+author: "Bright Dotu"
+picture: "assets/images/profile.jpg"
+
+# Site Settings
+url: ""
+baseurl: ""
+permalink: "/:title:output_ext"
+
+# Build Setings
+# markdown: kramdown
+
+# Google Analytics
+tracking_id: 'UA-98149238-2'
+
+# Social media
+twitter_url: "https://twitter.com/bdotu"
+github_url: "https://github.com/bdotu"
+linkedin_url: "http://www.linkedin.com/in/brightdotu1"
+myemail: "bright[dot]dotu[at]gmail[dot]com"
+
+# Blog Settings
+reading-time: true
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+
+# Plugins
+plugins:
+  - jekyll-paginate
