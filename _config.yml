@@ -7,7 +7,7 @@ author: "Bright Dotu"
 picture: "assets/images/profile.jpg"
 
 # Site Settings
-url: "" # For Production
+url: ""
 baseurl: ""
 permalink: "/:title:output_ext"
 
