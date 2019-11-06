@@ -7,8 +7,8 @@ title: about me
 
 Hello.
 
-Welcome to my personal website. My name is Bright; and I enjoy reading, coding, writing, video games, movies, and learning new things. That's about all I can think of whenever I encounter an *about me*. Anything else feels indulgent and a little unnecessary. If you care to find out more about me, feel free to email me and I will respond to the best of my abilities.
+Welcome to my personal website. My name is Bright; and I enjoy reading, coding, writing, video games, movies, and learning new things. Saying anything else seems indulgent and a little unnecessary. Feel free to email me if you care to know more about me. I will do my best to respond.
 
-On the quote above, it is a way of keeping myself accountable. In my mind, if people are reading it and thinking I live by it, then surely, it is but my responsibility to abide by it. The quote is how I strive to live my life.
+On the quote above, it is a way of keeping myself accountable. I put it there for people to read. And because of that, I feel obligated to abide by it. The quote is how I strive to live my life.
 
 I'm always open for a chat about anything and everything. <a href="mailto:{{ site.myemail }}" id="email">Email me</a>.
